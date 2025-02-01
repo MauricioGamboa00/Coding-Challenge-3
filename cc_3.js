@@ -25,6 +25,18 @@ let employee = {
 }; // Declared an employee with name, role, performace score, and active status
 
 employee.performanceScore = 100; // Increased employee performance score by 5
-employee.promotionEligible = true // added a new property to employee
+employee.promotionEligible = true; // added a new property to employee
 
-console.log("Updated Employee Record:", employee) // Log the updated employee record into console
+console.log("Updated Employee Record:", employee); // Log the updated employee record into console
+
+// Task 4 Customer Feedback Records
+
+let feedback = [
+    {customerName: "Danielle", feedbackText: "Amazing Service!", rating: 10},
+    {customerName: "Dave", feedbackText: "Slow Service.", rating: 4},
+    {customerName: "Dale", feedbackText: "Good Service.", rating: 6}
+]; // Created an Array for customer feedback
+
+feedback.push({customerName: "Derrick", feedbackText: "Mediocre Service", rating: 5}); // Added a new customer to the array
+
+console.log("Updated Customer Feedback List:", feedback); // Log updated customer feedback list to console
